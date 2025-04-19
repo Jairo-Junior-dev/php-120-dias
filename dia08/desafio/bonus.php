@@ -20,7 +20,7 @@ function buscarPeloId($value): ?array {
     }
     return null; 
 }
-// Busca todos os produtos com estoque maior que 0
+
 function buscarTodosOsProdutosEmEstoque(): array {
     global $array;
     $resultado = [];
